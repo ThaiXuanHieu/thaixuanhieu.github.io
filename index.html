@@ -8,28 +8,40 @@
 
 <body>
 
-    <div class="left">
-        <img class="avatar" src="avatar.jpeg" width="250" height="250">
+    <div>
+        <img class="avatar" src="avatar.jpeg" width="250px" height="250px">
         <h1 class="name">Thái Xuân Hiếu</h1>
-    </div>
-    <div class="right">
-        <ul class="list">
-            <button class="button" onclick="">About Me</button>
-            <button class="button" onclick="">Skills</button>
-            <button class="button" onclick="">Contact</button>
-            <button class="button" onclick="">Dowload</button>
-        </ul>
-        <pre class="text">
-            I'm Information Technology student, 
-            Back-end developer at Vinh University.
-            I like programming C#/.NET SQL
-        </pre>
-        <ul class="social-links">
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Youtube</a></li>
-        </ul>
-    </div>
 
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Aboutme')">About me</button>
+            <button class="tablinks" onclick="openCity(event, 'Skills')">Skills</button>
+            <button class="tablinks" onclick="openCity(event, 'Share')">Share</button>
+            <button class="tablinks" onclick="openCity(event, 'Project')">Project</button>
+        </div>
+
+        <div id="Aboutme" class="tabcontent">
+            <h3>About me</h3>
+            <p>Hi.My name is Thai Xuan Hieu. I am 22 years old. I am studying at Vinh University</p>
+        </div>
+
+        <div id="Skills" class="tabcontent">
+            <h3>Skills</h3>
+            <p>C#, Winform, WPF, .NET, SQL</p>
+        </div>
+
+        <div id="Share" class="tabcontent">
+            <h3>Share</h3>
+            <p>Document C# : <a href="">Click Here</a></p>
+            <p>Document .NET : <a href="">Click Here</a></p>
+            <p>Document SQL : <a href="">Click Here</a></p>
+        </div>
+        <div id="Project" class="tabcontent">
+            <h3>Project</h3>
+            <p></p>
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
 </body>
 
 </html>
