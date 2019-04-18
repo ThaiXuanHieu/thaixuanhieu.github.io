@@ -581,6 +581,7 @@ header {
     text-align: center;
 }
 .img-badges{
+    width: 100%;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -589,6 +590,7 @@ header {
 	Skills
 \*------------------------------------*/
 .img-skills{
+    
     height: 200px;
     padding-left: 5%;
     padding-right: 40%;
@@ -598,7 +600,7 @@ header {
 	Projects
 \*------------------------------------*/
 .img-projects{
-    
+    width: 100%;
     padding-left: 20%;
     padding-right: 20%;
 }
