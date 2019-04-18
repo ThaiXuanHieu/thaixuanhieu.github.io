@@ -591,7 +591,8 @@ header {
 \*------------------------------------*/
 .img-skills{
     
-    height: 200px;
+    height: 200%;
+    width: 135%;
     padding-left: 5%;
     padding-right: 40%;
 }
