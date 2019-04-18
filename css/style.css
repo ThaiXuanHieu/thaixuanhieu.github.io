@@ -578,8 +578,27 @@ header {
 .content{
     padding-left: 10%;
     padding-right: 10%;
+    text-align: center;
 }
-.content-badges{
+.img-badges{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/*------------------------------------*\
+	Skills
+\*------------------------------------*/
+.img-skills{
+    height: 200px;
+    padding-left: 5%;
+    padding-right: 40%;
+}
+
+/*------------------------------------*\
+	Projects
+\*------------------------------------*/
+.img-projects{
+    
     padding-left: 20%;
     padding-right: 20%;
 }
