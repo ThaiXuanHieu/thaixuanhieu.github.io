@@ -1,2 +1,60 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
-
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 3% 0% 0% 40%;
+}
+h1{
+    margin-left: 35%;
+    color: white;
+    font-size: 60;
+}
+h2{
+    margin-left: 30%;
+    color: white;
+    font-size: 60;
+}
+h4{
+    margin-left: 35%;
+    color: white;
+    font-size: 60;
+}
+/* Button */
+.btn {
+    width: 10%;
+    flex: 1 1 auto;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border: none;
+    border-radius: 10px;
+   }
+  
+  /* Demo Stuff End -> */
+  
+  /* <- Magic Stuff Start */
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    margin: 10% 0% 0% 23%;
+  }
+  .btn-2 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    margin: 10% 0% 0% 10%;
+  }
+  .btn-3 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    margin: 10% 0% 0% 10%;
+  }
