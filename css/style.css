@@ -1,7 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+.home{
+  margin-left: 5%;
+}
 img{
     border-radius: 50%;
     width: 200px;
