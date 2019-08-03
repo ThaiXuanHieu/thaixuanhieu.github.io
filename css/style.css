@@ -10,7 +10,10 @@ body {
 
 .home {
   background: url('../imgs/background.png') no-repeat;
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 img {
@@ -163,7 +166,7 @@ li {
   color: white;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 991px){
   body{
     background: url("../imgs/background.png");
   }
