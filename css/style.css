@@ -94,8 +94,24 @@ p {
   background: #32323a;
 }
 
+#aboutme .section-heading .section-title{
+  background-image: linear-gradient(to left, #208e00, #008d68, #0086c5, #0073fe, #473ae3);
+}
+
+#skills .section-heading .section-title{
+  background-image: linear-gradient(to left, #c69fcf, #ff95b8, #ff9b7a, #ffc02b, #a8eb12);
+}
+
+#projects .section-heading .section-title{
+  background-image: linear-gradient(to left, #03f33b, #00f26c, #00f18f, #00eeac, #26eac1);
+}
+
+#followme .section-footer .section-title{
+  background-image: linear-gradient(to right, #e46ad1, #c16ed8, #9a70da, #6f72d6, #3a71ce);
+}
+
 .section-title {
-  background-color: rgb(233, 236, 239);
+  
   border-radius: 5px;
   padding: 15px;
   margin: 15px 15px;
