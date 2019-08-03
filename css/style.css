@@ -9,8 +9,8 @@ body {
 }
 
 .home {
-  background: url('../imgs/background.png');
-
+  background: url('../imgs/background.png') no-repeat;
+  background-size: cover;
 }
 
 img {
@@ -163,10 +163,6 @@ li {
   color: white;
 }
 
-.fa-skype {
-  background: #00aff0;
-  color: white;
-}
 @media only screen and (max-width: 767px){
   body{
     background: url("../imgs/background.png");
