@@ -1,186 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Thái Xuân Hiếu - Giải pháp Công nghệ thông tin</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./css/style.css">
+    <title>My Blog</title>
 </head>
-<link rel="icon" href="./imgs/logo-CSharp.png">
 
 <body>
-    <section class="home">
-        <div>
-            <center>
-                <img src="./imgs/avatar.jpg" alt="">
-            </center>
-            <div>
-                <p id="name">I AM THÁI XUÂN HIẾU</p>
-                <p id="job">FULL-STACK .NET DEVELOPER</p>
-                <p id="contact">(+84) 123.456.789 - masterweb@example.com</p>
+
+    <header id="header">
+        <div class="wrapper">
+            <div class="avatar">
+                <img src="./img/avatar.png" alt="">
+            </div>
+            <div class="vertical-line"></div>
+        </div>
+        <div class="info">
+            <div class="main-info">
+                <p class="name">Thái Xuân Hiếu</p><br><br>
+                <p class="company">Hachinet JSC</p><br><br>
+            </div>
+            <div class="contact">
+                <a class="link address" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>22 Bạch Liêu</a><br>
+                <a class="link phone" href="#"><i class="fa fa-phone" aria-hidden="true"></i>+84 987 145 299</a><br>
+                <a class="link gmail" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>s2freedom@gmail.com</a>
             </div>
 
         </div>
-
-        <center>
-            <a class="btn btn-aboutme" href="#aboutme">About me</a>
-            <a class="btn btn-skills" href="#skills">Skills</a>
-            <a class="btn btn-projects" href="#projects">Projects</a>
-        </center>
-
-    </section>
-
-
-    <section id="aboutme">
-        <div class="section-heading">
-            <h1 class="section-title">About me</h1>
+        <br>
+        <br>
+        <div class="social">
+            <a class="btn" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></i></a>
+            <a class="btn" href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+            <a class="btn" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="btn" href="#"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="section-box">
-                        <h2 class="box-title">INFORMATION</h2>
-                        <p style="color: #32323a">
-                            I'm Thai Xuan Hieu, a Full-Stack Developer with <b>3 years of experience in .NET
-                                technologies</b><br>
-                            I'm studying at <b>Vinh University of Information Technology</b>, with good knowledge of
-                            <i>Database Design,
-                                Design
-                                Pattern,<br> Object-Oriented Analysis and Design</i>.</p>
-                        </p>
-                    </div>
-                </div>
+    </header>
 
-                <div class="col-sm-6">
-                    <div class="section-box">
-                        <h2 class="box-title">HOBBIES</h2>
-                        <ul>
-                            <li>Coding</li>
-                            <li>Reading book</li>
-                            <li>Take a picture</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- <section id="aboutme">
 
-    <section id="skills">
-        <div class="section-heading">
-            <h1 class="section-title">Skills</h1>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="section-box">
-                        <h2 class="box-title">PROGRAMMING LANGUAGES</h2>
-                        <ul>
-                            <li>C#, .NET</li>
-                            <li>HTML, CSS</li>
-                            <li>Javascript</li>
-                        </ul>
-                        <h2 class="box-title">FRAMEWORKS & PLATFORMS</h2>
-                        <ul>
-                            <li>AngularJS</li>
-                            <li>jQuery</li>
-                            <li>ASP.NET MVC / Entity Framework / LINQ to SQL</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="section-box">
-                        <h2 class="box-title">DATABASE</h2>
-                        <ul>
-                            <li>Microsoft SQL Server</li>
-                        </ul>
-                        <h2 class="box-title">VERSION CONTROL</h2>
-                        <ul>
-                            <li>Github</li>
-                        </ul>
-                        <h2 class="box-title">IDE</h2>
-                        <ul>
-                            <li>Visual Studio 2017</li>
-                            <li>Visual Studio Code</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="section-box">
-                        <h2 class="box-title">FOREIGN LANGUAGE</h2>
-                        <ul>
-                            <li>English 1</li>
-                            <li>English 2</li>
-                            <li>English for IT</li>
-                        </ul>
-                        <h2 class="box-title">KNOWLEDGE</h2>
-                        <ul>
-                            <li>Deep understanding about OOP, Design Pattern, SOLID principles, Dependency Injection,
-                                ...</li>
-                            <li>Good understanding about the Agile and Scrum process</li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="projects">
-        <div class="section-heading">
-            <h1 class="section-title">Projects</h1>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="section-box">
-                        <h2 class="box-title">WEB</h2>
-                        <ul>
-                            <li>My CV</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="section-box">
-                        <h2 class="box-title">SOFTWARE</h2>
-                        <ul>
-                            <li>Calculator</li>
-                            <li>Random</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="section-box">
-                        <h2 class="box-title">GAME</h2>
-                        <ul>
-                            <li>Game Đuổi hình bắt chữ</li>
-                            <li>Game Bầu cua tôm cá</li>
-                            <li>Game Tic-tac-toe</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </section>
 
     <footer id="footer">
-        <div class="section-footer">
-            <h1 class="section-title">Follow me</h1>
-            <center>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-google"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-youtube"></a>
-            </center>
 
-        </div>
-    </footer>
-
+    </footer> -->
 </body>
 
 </html>

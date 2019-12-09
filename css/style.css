@@ -1,187 +1,110 @@
-html,
-body {
+body{
   margin: 0;
-  padding: 0;
-  font-family: 'Century Gothic', sans-serif;
-  width: 100%;
-  height: 100%;
-  background: #32323a;
 }
 
-.home {
-  background: url('../imgs/background.png') no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
+#header{
+  height: 455px;
+  background: gray;
+  background-image: linear-gradient(to right, #c97303, #db532b, #e02e4e, #d70273, #b9179a);
+  max-width: 80%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-img {
+#header .wrapper .avatar img{
+  width: 300px;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin-top: 50px;
 }
-
-p {
-  color: #FFF;
-  text-align: center;
+#header .vertical-line{
+  border-left: 2px solid white;
+  height: 300px;
+  position: absolute;
+  left: 40%;
+  margin-left: -3px;
+  top: 0;
 }
-
-#name {
-  margin-top: 40px;
-  font-size: 40px;
-}
-
-#job {
-  font-size: 40px;
-}
-
-#contact {
-  font-size: 20px;
-}
-
-.btn {
-  text-align: center;
-  text-transform: uppercase;
-  transition: none;
-  border: 3px solid;
-  color: #f9f3f4;
-  border-radius: 10px;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px 10px;
-  margin: 150px 30px 100px 30px;
-}
-
-.btn-aboutme {
-  width: 120px;
-  height: 50px;
-}
-
-.btn-skills {
-  width: 120px;
-  height: 50px;
-
-}
-
-.btn-projects {
-  width: 120px;
-  height: 50px;
-
-}
-
-.btn:hover {
-  color: gold;
-}
-
-.col-sm-4 {
+#header .wrapper{
   position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  top: 10%;
+  left: 10%;
+}
+.info{
+  height: 48px;
 }
 
-#aboutme {
-  background: #32323a;
+.info .main-info{
+  position: absolute;
+  top: 10%;
+  left: 57%;
+  color: white;
+  font-size: 50px;
 }
-
-#skills {
-  background: #32323a;
+.info .main-info .company{
+  position: absolute;
+  top: 15%;
+  color: gold;
+  font-size: 35px;
+  margin-left: 70px;
 }
-
-#projects {
-  background: #32323a;
+.info i{
+  display: inline-block;
+  margin-right: 30px;
 }
-
-#aboutme .section-heading .section-title {
-  background-image: linear-gradient(to left, #208e00, #008d68, #0086c5, #0073fe, #473ae3);
-}
-
-#skills .section-heading .section-title {
-  background-image: linear-gradient(to left, #c69fcf, #ff95b8, #ff9b7a, #ffc02b, #a8eb12);
-}
-
-#projects .section-heading .section-title {
-  background-image: linear-gradient(to left, #03f33b, #00f26c, #00f18f, #00eeac, #26eac1);
-}
-
-#footer .section-footer .section-title {
-  background-image: linear-gradient(to right, #e46ad1, #c16ed8, #9a70da, #6f72d6, #3a71ce);
-}
-
-.section-title {
-
-  border-radius: 5px;
-  padding: 15px;
-  margin: 15px 15px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #32323a;
-}
-
-.section-box {
-  background: #FFF;
-  border-radius: 5px;
-  padding: 30px;
-}
-
-.box-title {
-  font-size: 18px;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin-top: 0;
-  color: #32323a;
-  background-color: rgb(233, 236, 239);
-  border-radius: 5px;
-  padding: 10px 0px 10px 0px;
-  text-align: center;
-}
-
-li {
-  color: #32323a;
-}
-
-.section-footer {
-  background: #32323a;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
+.info .contact .link{
   text-decoration: none;
-  margin: 15px 2px;
+}
+.info .contact .address{
+  position: absolute;
+  top: 30%;
+  left: 61%;
+  color: white;
+}
+.info .contact .phone{
+  position: absolute;
+  top: 35%;
+  left: 61%;
+  color: white;
+}
+.info .contact .gmail{
+  position: absolute;
+  top: 40%;
+  left: 61%;
+  color: white;
+}
+
+.info .contact .link:hover{
+  transform: scale(1.1);
+}
+
+#header .social{
+  text-align: center;
+  background: white;
+  height: 60px;
+}
+
+#header .social .btn{
+  display: inline-block;
+  background: #dd337a;
+  color: white;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  margin: 5px;
+  
+}
+#header .social .btn i{
+  line-height: 35px;
+  font-size: 25px;
 }
 
-.fa:hover {
-  opacity: 0.7;
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-@media only screen and (max-width: 991px) {
-  body {
-    background: url("../imgs/background.png");
-  }
+#footer{
+  height: 400px;
+  background: gray;
+  background-image: linear-gradient(to right, #7b2590, #98238d, #b22388, #c92882, #dd337a);
+  max-width: 80%;
+  margin: auto;
 }
