@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-display: Roboto,sans-serif;
 }
 
 #header{
@@ -15,11 +16,10 @@ body{
   border-radius: 50%;
 }
 #header .vertical-line{
-  border-left: 2px solid white;
+  border-left: 3px solid white;
   height: 300px;
   position: absolute;
   left: 40%;
-  margin-left: -3px;
   top: 0;
 }
 #header .wrapper{
@@ -37,6 +37,7 @@ body{
   left: 57%;
   color: white;
   font-size: 50px;
+  text-transform: uppercase;
 }
 .info .main-info .company{
   position: absolute;
@@ -49,39 +50,40 @@ body{
   display: inline-block;
   margin-right: 30px;
 }
-.info .contact .link{
+.info .contact-info .link{
   text-decoration: none;
 }
-.info .contact .address{
+.info .contact-info .address{
   position: absolute;
   top: 30%;
   left: 61%;
   color: white;
 }
-.info .contact .phone{
+.info .contact-info .phone{
   position: absolute;
   top: 35%;
   left: 61%;
   color: white;
 }
-.info .contact .gmail{
+.info .contact-info .gmail{
   position: absolute;
   top: 40%;
   left: 61%;
   color: white;
 }
 
-.info .contact .link:hover{
+.info .contact-info .link:hover{
   transform: scale(1.1);
 }
 
-#header .social{
+.social{
   text-align: center;
   background: white;
   height: 60px;
+  margin-top: 47px;
 }
 
-#header .social .btn{
+.social .btn{
   display: inline-block;
   background: #dd337a;
   color: white;
@@ -91,7 +93,7 @@ body{
   margin: 5px;
   
 }
-#header .social .btn i{
+.social .btn i{
   line-height: 35px;
   font-size: 25px;
 }
@@ -101,10 +103,30 @@ body{
   color: #f1f1f1;
 }
 
-#footer{
-  height: 400px;
-  background: gray;
-  background-image: linear-gradient(to right, #7b2590, #98238d, #b22388, #c92882, #dd337a);
+#technology-section {
+  height: 455px;
+  margin-left: 10%;
   max-width: 80%;
-  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-section {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.technology-logo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin: 50px;
+}
+
+.logo:hover {
+  transform: scale(1.3);
 }
