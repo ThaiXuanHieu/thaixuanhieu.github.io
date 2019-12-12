@@ -132,9 +132,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   #header .avatar {
-    width: 200px;
-    height: 200px;
     padding-left: 50px;
+    padding-right: 50px;
   }
 
   .vertical-line {
