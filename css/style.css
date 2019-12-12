@@ -1,16 +1,12 @@
 body {
   margin: 0;
   font-display: Roboto, sans-serif;
+  box-sizing: border-box;
 }
 
 #header {
-  background: gray;
   background-image: linear-gradient(to right, #c97303, #db532b, #e02e4e, #d70273, #b9179a);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#header .avatar{
-  width: 350px;
 }
 
 #header .avatar img {
@@ -25,7 +21,7 @@ body {
   margin-left: 175px;
 }
 
-#header .container {
+#header #aboutme {
   padding-top: 30px;
 }
 
@@ -132,6 +128,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  #header .avatar{
+    padding-left: 50px;
+  }
+
   .vertical-line {
     display: none;
   }
