@@ -1,89 +1,89 @@
-body{
+body {
   margin: 0;
-  font-display: Roboto,sans-serif;
+  font-display: Roboto, sans-serif;
 }
 
-#header{
-  height: 455px;
+#header {
   background: gray;
   background-image: linear-gradient(to right, #c97303, #db532b, #e02e4e, #d70273, #b9179a);
   max-width: 80%;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#header .wrapper .avatar img{
-  width: 300px;
+
+#header .avatar img {
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
 }
-#header .vertical-line{
+
+#header .vertical-line {
   border-left: 3px solid white;
-  height: 300px;
-  position: absolute;
-  left: 40%;
-  top: 0;
-}
-#header .wrapper{
-  position: relative;
-  top: 10%;
-  left: 10%;
-}
-.info{
-  height: 48px;
+  height: 350px;
+  margin-left: 175px;
 }
 
-.info .main-info{
-  position: absolute;
-  top: 10%;
-  left: 57%;
-  color: white;
-  font-size: 50px;
+#header .container {
+  padding-top: 30px;
+}
+
+.info{
+  padding-top: 50px;
+}
+
+.info .main-info {
   text-transform: uppercase;
 }
-.info .main-info .company{
-  position: absolute;
-  top: 15%;
+
+.info .main-info .name {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+.info .main-info .company {
+  text-align: center;
   color: gold;
   font-size: 35px;
-  margin-left: 70px;
+  margin-top: -70px;
 }
-.info i{
-  display: inline-block;
+
+.info .contact-info {
+  padding-left: 75px;
+}
+
+.info i {
   margin-right: 30px;
 }
-.info .contact-info .link{
+
+.info .contact-info .link {
   text-decoration: none;
 }
-.info .contact-info .address{
-  position: absolute;
-  top: 30%;
-  left: 61%;
-  color: white;
-}
-.info .contact-info .phone{
-  position: absolute;
-  top: 35%;
-  left: 61%;
-  color: white;
-}
-.info .contact-info .gmail{
-  position: absolute;
-  top: 40%;
-  left: 61%;
+
+.info .contact-info .address {
   color: white;
 }
 
-.info .contact-info .link:hover{
+.info .contact-info .phone {
+  color: white;
+}
+
+.info .contact-info .gmail {
+  color: white;
+}
+
+.info .contact-info .link:hover {
   transform: scale(1.1);
 }
 
-.social{
+.social {
   text-align: center;
   background: white;
   height: 60px;
   margin-top: 47px;
 }
 
-.social .btn{
+.social .btn {
   display: inline-block;
   background: #dd337a;
   color: white;
@@ -91,20 +91,20 @@ body{
   height: 50px;
   border-radius: 50%;
   margin: 5px;
-  
+
 }
-.social .btn i{
+
+.social .btn i {
   line-height: 35px;
   font-size: 25px;
 }
 
-.btn:hover i{
+.btn:hover i {
   transform: scale(1.3);
   color: #f1f1f1;
 }
 
 #technology-section {
-  height: 455px;
   margin-left: 10%;
   max-width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -129,4 +129,10 @@ body{
 
 .logo:hover {
   transform: scale(1.3);
+}
+
+@media only screen and (max-width: 600px) {
+  .vertical-line {
+    display: none;
+  }
 }
