@@ -106,19 +106,26 @@ body {
 }
 
 #technology-section {
+  margin-top: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to right top, #660e6b, #6e0089, #6c00ac, #5b00d4, #0019ff);
 }
+
+
 
 .title-section {
   text-align: center;
   text-transform: uppercase;
-  margin-top: 50px;
   padding-top: 50px;
+  color: white;
 }
 
 .technology-logo {
-  margin-top: 20px;
+  margin: 30px 0px 20px 0px;
   text-align: center;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
