@@ -111,7 +111,9 @@ body {
   background-image: linear-gradient(to right top, #660e6b, #6e0089, #6c00ac, #5b00d4, #0019ff);
 }
 
-
+#technology-section {
+  padding-bottom: 50px ;
+}
 
 .title-section {
   text-align: center;
