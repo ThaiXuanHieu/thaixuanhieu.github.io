@@ -60,7 +60,7 @@ body {
 }
 
 .info .contact-info .link:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .info .contact-info .address {
@@ -74,8 +74,6 @@ body {
 .info .contact-info .gmail {
   color: white;
 }
-
-
 
 .social {
   text-align: center;
