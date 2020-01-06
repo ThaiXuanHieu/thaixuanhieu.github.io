@@ -5,7 +5,8 @@ body {
 }
 
 #header {
-  background-image: linear-gradient(to right, #c97303, #db532b, #e02e4e, #d70273, #b9179a);
+  /* background-image: linear-gradient(to right, #c97303, #db532b, #e02e4e, #d70273, #b9179a); */
+  background: url('../img/bg.jpg');
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -41,8 +42,8 @@ body {
 
 .info .main-info .company {
   text-align: center;
-  color: gold;
-  font-size: 35px;
+  color: #FFB700;
+  font-size: 40px;
   margin-top: -70px;
 }
 
@@ -84,7 +85,7 @@ body {
 
 .social .btn {
   display: inline-block;
-  background: #dd337a;
+  background: #79C144;
   color: white;
   width: 50px;
   height: 50px;
@@ -100,13 +101,14 @@ body {
 
 .btn:hover i {
   transform: scale(1.3);
-  color: #f1f1f1;
+  color: white;
 }
 
 #technology-section {
   margin-top: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: linear-gradient(to right top, #660e6b, #6e0089, #6c00ac, #5b00d4, #0019ff);
+  background: url('../img/bg.jpg');
+  /* background-image: linear-gradient(to right top, #660e6b, #6e0089, #6c00ac, #5b00d4, #0019ff); */
 }
 
 #technology-section {
