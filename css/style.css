@@ -107,7 +107,7 @@ body {
 #technology-section {
   margin-top: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: url('../img/bg.jpg');
+  background: url('../img/bg-technology.jpg');
   /* background-image: linear-gradient(to right top, #660e6b, #6e0089, #6c00ac, #5b00d4, #0019ff); */
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .logo:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 600px) {
