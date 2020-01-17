@@ -45,6 +45,7 @@ body {
   color: #FFB700;
   font-size: 40px;
   margin-top: -70px;
+  font-weight: 600;
 }
 
 .info .contact-info {
@@ -58,10 +59,6 @@ body {
 .info .contact-info .link {
   text-decoration: none;
 
-}
-
-.info .contact-info .link:hover {
-  transform: scale(1.1);
 }
 
 .info .contact-info .address {
