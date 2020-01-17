@@ -91,7 +91,9 @@ body {
   height: 50px;
   border-radius: 50%;
   margin: 5px;
-
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
 }
 
 .social .btn i {
