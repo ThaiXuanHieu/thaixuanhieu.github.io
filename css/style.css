@@ -27,31 +27,28 @@ body {
 }
 
 .info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   padding-top: 50px;
 }
 
-.info .main-info {
+.info .col {
+  margin: 10px 0px;
+}
+
+.info .name {
+  text-align: center;
+  color: white;
   text-transform: uppercase;
 }
 
-.info .main-info .name {
+.info .company {
   text-align: center;
-  color: white;
-  font-size: 45px;
 }
-
-.info .main-info .company {
-  text-align: center;
-  color: #FFB700;
-  font-size: 40px;
-  margin-top: -70px;
-  font-weight: 600;
+.info .contact-info{
+  padding-left: 80px;
 }
-
-.info .contact-info {
-  padding-left: 75px;
-}
-
 .info i {
   margin-right: 30px;
 }
@@ -111,7 +108,7 @@ body {
 }
 
 #technology-section {
-  padding-bottom: 50px ;
+  padding-bottom: 50px;
 }
 
 .title-section {
@@ -138,12 +135,7 @@ body {
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 600px) {
-  #header .avatar {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
+@media only screen and (max-width: 576px) {
   .vertical-line {
     display: none;
   }
