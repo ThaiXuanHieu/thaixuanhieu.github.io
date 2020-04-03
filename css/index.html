@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Thái Xuân Hiếu</title>
+    <link rel="icon" href="./img/dotNet.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <div class="slogan"
+        style="text-align: center; text-transform: uppercase; color: white; font-size: 95px; font-family: sans-serif; padding: 10px 0px 10px 0px;">
+        “Nếu bạn đợi tôi từ bỏ,<br> bạn sẽ đợi tôi mãi mãi”
+    </div>
+    <div class="container">
+        <img class="container__avatar container__avatar--wh-250px" src="./img/avatar-new.png" alt="">
+    </div>
+    <div class="container__slideshow">
+        <div class="slideshow__item slideshow__item--fade">
+            <div class="item__img-fullname">
+                <img src="./img/fullname.png" alt="">
+            </div>
+        </div>
+        <div class="slideshow__item slideshow__item--fade">
+            <div class="item__img-job">
+                <h1 style="font-family: sans-serif; padding-top: 15px; color: #79C144;">Computer Vision Researcher</h1>
+            </div>
+        </div>
+        <div class="slideshow__item slideshow__item--fade">
+            <div class="item__socials">
+                <a class="btn" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></i></a>
+                <a class="btn" href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                <a class="btn" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="btn" href="#"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="slideshow__item slideshow__item--fade">
+            <div class="item--d-flex">
+                <div class="item__img">
+                    <img src="./img/dotNet.png" alt="" width="100%">
+                </div>
+                <div class="item__img">
+                    <img src="./img/microsoft-sql-server.svg" alt="" width="100%">
+                </div>
+                <div class="item__img">
+                    <img src="./img/bootstrap.png" alt="" width="100%">
+                </div>
+                <div class="item__img">
+                    <img src="./img/jquery.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+        <a class="btn-prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="btn-next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
