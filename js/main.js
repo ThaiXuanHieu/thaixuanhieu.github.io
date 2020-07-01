@@ -1,26 +1,24 @@
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function addImage(input) {
+    if (input.files && input.files[0]) {
+        var filerdr = new FileReader();
+        filerdr.onload = function (e) {
+            document.getElementById("img-preview").src = e.target.result;
+            document.getElementsByClassName("region-img-preview")[0].style.display = "block";
+        }
+        filerdr.readAsDataURL(input.files[0]);
+    }
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function uploadAvatar(input) {
+    if (input.files && input.files[0]) {
+        var filerdr = new FileReader();
+        filerdr.onload = function (e) {
+            document.getElementById("avatar").src = e.target.result;
+        }
+        filerdr.readAsDataURL(input.files[0]);
+    }
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slideshow__item");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+function like(){
+    document.querySelector('.btn-like, .btn-like i').style.color = 'blue';
 }
