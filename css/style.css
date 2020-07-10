@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #E9EBEE;
 }
@@ -188,8 +190,9 @@ label {
 }
 
 .btn-up {
-    margin: 10px 15px;
-    width: 510px;
+    width: 95%;
+    display: block;
+    margin: 10px auto;
 }
 
 .region-img-preview {
@@ -401,10 +404,6 @@ label {
 
     .col-center {
         left: 0;
-    }
-
-    .btn-up {
-        width: 395px;
     }
 }
 
