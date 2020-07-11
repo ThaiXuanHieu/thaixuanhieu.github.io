@@ -199,25 +199,26 @@
             </div>
             <div class="col-sm-6 col-center">
                 <div class="add-post-box bg-white">
-                    
+
                     <div class="title-box">Tạo bài viết</div>
                     <div class="mr-t-20">
-                        <a class="col-xs-2 mr-l-30" href="profile.html"><img class="user-avt" src="./img/user/hieuxt.jpg" alt=""></a>
-                            <div class="col-xs-10"><textarea class="post-caption-input form-control" name="" id="" placeholder="Bạn đang nghĩ gì?"></textarea></div>
+                        <a class="col-xs-2 mr-l-30" href="profile.html"><img class="user-avt"
+                                src="./img/user/hieuxt.jpg" alt=""></a>
+                        <div class="col-xs-10"><textarea class="post-caption-input form-control" name="" id=""
+                                placeholder="Bạn đang nghĩ gì?"></textarea></div>
                     </div>
                     <div class="upload-image" title="Thêm ảnh">
                         <label for="icon-input">
                             <i class="fas fa-image fa-lg"></i>
                             Ảnh/Video
                         </label>
-                        <input id="icon-input" type="file" name="file"
-                            accept=".jpg, .png, *.jpeg" onchange="addImage(this)" />
+                        <input id="icon-input" type="file" name="file" accept=".jpg, .png, *.jpeg"
+                            onchange="addImage(this)" />
                     </div>
                     <div class="region-img-preview" style="display: none;">
                         <img id="img-preview" src="" alt="" width="100%">
                         <div class="middle">
-                            <a href="#" style="color: black;"><i
-                                    class="fal fa-trash-alt fa-lg"></i></a>
+                            <a href="#" style="color: black;"><i class="fal fa-trash-alt fa-lg"></i></a>
                         </div>
                     </div>
                     <button class="btn btn-primary btn-up"><i class="fal fa-check"></i> Đăng</button>
@@ -246,7 +247,7 @@
                         </div>
                         <div class="content">
                             <div class="post-caption">Khoảnh khắc mắt thường không thể nhìn thấy</div>
-                            <div class="post-img"><img src="./img/post-img/tambiakinh.jpg" alt="" width="100%"></div>
+                            <div class="post-img"><img class="photo" src="./img/post-img/tambiakinh.jpg" alt="" width="100%"></div>
                         </div>
                         <div class="count-liked-commented">
 
@@ -350,7 +351,7 @@
                         </div>
                         <div class="content">
                             <div class="post-caption">Ai bảo chăn trâu là khổ chăn trâu sướng lắm chứ</div>
-                            <div class="post-img"><img src="./img/post-img/contrau.jpg" alt="" width="100%"></div>
+                            <div class="post-img"><img class="photo" src="./img/post-img/contrau.jpg" alt="" width="100%"></div>
                         </div>
                         <div class="post-action">
                             <div class="row" style="text-align: center;">
@@ -447,7 +448,8 @@
                         </div>
                         <div class="content">
                             <div class="post-caption">Vũ điệu bình minh</div>
-                            <div class="post-img"><img src="./img/post-img/vudieubinhminh.jpg" alt="" width="100%"></div>
+                            <div class="post-img"><img class="photo" src="./img/post-img/vudieubinhminh.jpg" alt="" width="100%">
+                            </div>
                         </div>
                         <div class="post-action">
                             <div class="row" style="text-align: center;">
@@ -544,7 +546,7 @@
                         </div>
                         <div class="content">
                             <div class="post-caption">Cafe</div>
-                            <div class="post-img"><img src="./img/post-img/lycafe.jpg" alt="" width="100%"></div>
+                            <div class="post-img"><img class="photo" src="./img/post-img/lycafe.jpg" alt="" width="100%"></div>
                         </div>
                         <div class="post-action">
                             <div class="row" style="text-align: center;">
@@ -641,7 +643,7 @@
                         </div>
                         <div class="content">
                             <div class="post-caption">Back & White</div>
-                            <div class="post-img"><img src="./img/post-img/duatrau.jpg" alt="" width="100%"></div>
+                            <div class="post-img"><img class="photo" src="./img/post-img/duatrau.jpg" alt="" width="100%"></div>
                         </div>
                         <div class="post-action">
                             <div class="row" style="text-align: center;">
@@ -819,6 +821,11 @@
             </div>
         </div>
     </section>
+    <!-- The Modal -->
+    <div id="modal-img" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img">
+    </div>
     <script src="./js/main.js"></script>
 </body>
 
