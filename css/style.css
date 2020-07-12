@@ -646,6 +646,24 @@ label {
     cursor: pointer;
 }
 
+.fixed-bar {
+    display: none;
+    position: fixed;
+    left: 1%;
+    bottom: 5%;
+}
+
+.fixed-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background-color: white;
+    font-size: 16px;
+    margin: 10px 0px;
+    border-radius: 50%;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58,59,69,.15);
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 600px) {
     .modal-content {
@@ -657,5 +675,9 @@ label {
         position: absolute;
         top: 140px;
         right: 15px;
+    }
+
+    .fixed-bar {
+        display: block;
     }
 }
