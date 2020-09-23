@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
 }
@@ -78,6 +82,7 @@ a:hover {
   width: 100%;
   background: #eee;
   padding: 2rem;
+  margin-top: 3rem;
 }
 
 .area-footer__contact {
@@ -96,6 +101,11 @@ a:hover {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+
+.technologies-item__img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -135,6 +145,7 @@ a:hover {
     padding-top: 3rem;
   }
 }
+
 
 @media only screen and (min-width: 768px) {
   .inner-area-header__info {
