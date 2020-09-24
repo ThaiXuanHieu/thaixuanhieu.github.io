@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thai Xuan Hieu - Software Engineer</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" href="/img/blazor_logo.png" type="image/gif" sizes="16x16">
 </head>
@@ -25,17 +26,17 @@
         </div>
         <div class="inner-area-header__nav">
           <a class="inner-area-header__nav__item" href="index.html">Home</a>
-          <a class="inner-area-header__nav__item" href="aboutme.html">About me</a>
-          <a class="inner-area-header__nav__item" href="technologies.html">Technologies</a>
-          <a class="inner-area-header__nav__item" href="projects.html">Projects</a>
-          <a class="inner-area-header__nav__item" href="blogs.html">Blogs</a>
+          <a class="inner-area-header__nav__item" href="#area-aboutme">About me</a>
+          <a class="inner-area-header__nav__item" href="#area-technologies">Technologies</a>
+          <a class="inner-area-header__nav__item" href="#area-projects">Projects</a>
+          <a class="inner-area-header__nav__item" href="#area-blogs">Blogs</a>
         </div>
       </div>
     </div>
   </div>
   <div class="area-content">
     <div class="container">
-      <div class="area-aboutme">
+      <div id="area-aboutme" class="area-aboutme">
         <h1>About me</h1>
         <p><b>- Introduction: </b>I'm <b>Thai Xuan Hieu.</b> At the end of 2016, I started studying <b><i>Information Technology</i></b> at
           <b><i>Vinh University.</i></b>
@@ -46,73 +47,71 @@
           like: <b><i style="color: blueviolet;">ASP.NET MVC, ASP.NET Core, Blazor,</i> <i style="color: blue;">jQuery,
             </i><i style="color: red;">Angular, </i><i style="color: gold;">SQLServer</i></b>, ...</p>
         <p><b>- Skills: </b>Management, presentation and teamwork.</p>
-        <p><b>- Knowledge: </b>Deep understanding about OOP, Design Pattern, SOLID principles, Dependency Injection, Good understanding software design, database design, RestfulAPI, ...</p>
+        <p><b>- Knowledge: </b>Deep understanding about OOP, Design Pattern, SOLID principles, Dependency Injection, good understanding software design, database design, RestfulAPI, ...</p>
       </div>
-      <div class="area-technologies mt-4">
+      <div id="area-technologies" class="area-technologies mt-4">
         <h1>Technologies</h1>
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/html_logo.webp" alt="">
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/css_logo.png" alt="">
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/javascript_logo.png" alt="">
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/jquery_logo.png" alt="">
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/bootstrap_logo.png" alt="">
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/angular_logo.svg" alt="">
             </div>
           </div>
         </div>
         <div class="row mt-4">
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
+          <div class="col-md-1 col-1"></div>
+          <div class="col-md-3 col-3">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/dotnet-standard_logo.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-3">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/dotnet-core_logo.png" alt="">
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/blazor_logo.png" alt="">
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-2">
             <div class="technologies-item">
               <img class="technologies-item__img" src="/img/microsoft-sql-server_logo.svg" alt="">
             </div>
           </div>
-          <div class="col-md-1"></div>
+          <div class="col-md-1 col-1"></div>
         </div>
       </div>
-      <div class="area-projects mt-4">
+      <div id="area-projects" class="area-projects">
         <h1>Projects</h1>
-        <h5>- Desktop Applications: <i>Game The 8 Puzzle, Game Duoi Hinh Bat Chu, Game Tic-tac-toe, Store Management.</i></h5>
-        <h5>- Web Applications: <i>News Website, E-Commerce, ETEP (Task Management And Supervision), Mobile Photography Community.</i></h5>
       </div>
-      <div class="area-blogs mt-4">
+      <div id="area-blogs" class="area-blogs mt-4">
         <h1>Blogs</h1>
         <p>Updating...</p>
       </div>
@@ -133,8 +132,10 @@
           src="/img/hackerrank_logo.png" alt=""></a>
     </div>
   </div>
+  <button onclick="scrollToTop()" id="btnScroll" title="Go to top"><i class="fas fa-arrow-up"></i></button>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
