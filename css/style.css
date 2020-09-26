@@ -123,6 +123,23 @@ a:hover {
   padding: 15px;
   border-radius: 4px;
 }
+.blog__item {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+
+.item__thumbnail img{
+  border-radius: 10px;
+  width: 100%;
+}
+
+.blog__title a {
+  color: black;
+}
+
+.blog__title a:hover {
+  color: blueviolet;
+}
 
 @media only screen and (max-width: 600px) {
   .inner-area-header {
