@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 a {
@@ -126,11 +126,14 @@ a:hover {
 .blog__item {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,.12);
+  margin-bottom: 15px;
 }
 
 .item__thumbnail img{
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   width: 100%;
+  max-height: 205px;
+  object-fit: cover;
 }
 
 .blog__title a {
@@ -139,6 +142,10 @@ a:hover {
 
 .blog__title a:hover {
   color: blueviolet;
+}
+
+.blog__item__footer {
+  border-radius: 0px 0px 10px 10px;
 }
 
 @media only screen and (max-width: 600px) {
