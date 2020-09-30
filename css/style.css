@@ -145,6 +145,10 @@ a:hover {
   color: blueviolet;
 }
 
+.blog__item__body {
+  height: 175px;
+}
+
 .blog__item__footer {
   border-radius: 0px 0px 10px 10px;
 }
