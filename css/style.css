@@ -20,7 +20,7 @@ a:hover {
 }
 
 .area-header__cover-img {
-  background-image: url(/img/cover_img.jpeg);
+  background-image: url(/img/microsoft-campus.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -124,13 +124,14 @@ a:hover {
   padding: 15px;
   border-radius: 4px;
 }
+
 .blog__item {
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
   margin-bottom: 15px;
 }
 
-.item__thumbnail img{
+.item__thumbnail img {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
   max-height: 205px;
@@ -187,6 +188,10 @@ a:hover {
   .area-header {
     margin-bottom: 35px;
   }
+
+  .area-header__cover-img {
+    background-position: 45%;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -214,6 +219,7 @@ a:hover {
   .inner-area-header__info {
     left: 18%;
   }
+
   .inner-area-header__nav {
     margin-top: 15px;
   }
