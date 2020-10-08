@@ -109,6 +109,10 @@ a:hover {
   width: 100%;
 }
 
+h5 a {
+  color: black;
+}
+
 #btnScroll {
   display: none;
   position: fixed;
