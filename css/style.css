@@ -79,6 +79,10 @@ a:hover {
   margin-left: 15px;
 }
 
+.area-aboutme p {
+  font-size: 18px;
+}
+
 .area-footer--bg-3e {
   width: 100%;
   background: #eee;
@@ -110,7 +114,7 @@ a:hover {
 }
 
 h5 a {
-  color: black;
+  color: inherit;
 }
 
 #btnScroll {
@@ -143,11 +147,11 @@ h5 a {
 }
 
 .blog__title a {
-  color: black;
+  color: inherit;
 }
 
 .blog__title a:hover {
-  color: blueviolet;
+  color: #007bff;
 }
 
 .blog__item__body {
