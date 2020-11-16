@@ -97,17 +97,19 @@ a:hover {
 }
 
 .area-footer__contact__item {
-  width: 30px;
-  height: 30px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
   margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
 }
 
-.area-footer__contact__social {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+.area-footer__contact__item i {
+  font-size: 20px;
 }
-
 
 .technologies-item__img {
   width: 100%;
