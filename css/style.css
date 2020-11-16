@@ -34,18 +34,18 @@ a:hover {
 .inner-area-header__avatar-img {
   position: absolute;
   margin-top: -75px;
-  width: 170px;
-  height: 170px;
+  width: 160px;
+  height: 160px;
   background-color: white;
   border-radius: 50%;
-  padding: 10px;
+  padding: 5px;
 }
 
 .icon-shield {
   position: absolute;
   width: 28px;
   height: 28px;
-  bottom: -1%;
+  bottom: -5%;
   right: 40%;
 }
 
