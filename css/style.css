@@ -100,7 +100,7 @@ a:hover {
   background-color: white;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 10px;
   padding: 10px;
   margin: 5px;
   text-align: center;
@@ -132,7 +132,18 @@ h5 a {
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 10px;
+}
+
+.hr {
+  border-bottom: 4px solid #00b5e3;
+  margin: 0px 0px 20px 0px;
+  width: 5rem;
+}
+
+#btnScroll i {
+  width: 18px;
+  height: 18px;
 }
 
 .blog__item {
