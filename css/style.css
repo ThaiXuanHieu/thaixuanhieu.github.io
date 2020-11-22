@@ -85,7 +85,6 @@ a:hover {
 
 .area-footer--bg-3e {
   width: 100%;
-  background: #eee;
   padding: 2rem;
   margin-top: 3rem;
 }
@@ -122,7 +121,7 @@ h5 a {
 #btnScroll {
   display: none;
   position: fixed;
-  bottom: 25px;
+  bottom: 80px;
   right: 10px;
   z-index: 99;
   font-size: 18px;
