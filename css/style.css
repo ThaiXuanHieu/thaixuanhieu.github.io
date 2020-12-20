@@ -67,6 +67,10 @@ a:hover {
   margin-top: 10px;
 }
 
+.inner-area-header__info__job{
+  color: #666;
+}
+
 .inner-area-header__nav {
   position: absolute;
   right: 0;
