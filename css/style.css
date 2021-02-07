@@ -15,25 +15,21 @@ a:hover {
   text-decoration: none;
 }
 
+.bg-white {
+  background-color: #fff;
+}
+
 .area-header {
-  margin-bottom: 115px;
+  height: 105px;
+  padding-top: 20px;
 }
 
-.area-header__cover-img {
-  background-image: url(/img/bg.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 450px;
-}
-
-.inner-area-header {
+.inner-area-header,
+.inner-area-header__avatar-img {
   position: relative;
 }
 
 .inner-area-header__avatar-img {
-  position: absolute;
-  margin-top: -75px;
   width: 160px;
   height: 160px;
   background-color: white;
@@ -46,7 +42,7 @@ a:hover {
   width: 28px;
   height: 28px;
   bottom: -5%;
-  right: 40%;
+  left: 42%;
 }
 
 .inner-area-header__avatar-img--round {
@@ -58,6 +54,7 @@ a:hover {
 .inner-area-header__info {
   position: absolute;
   left: 15%;
+  top: 50%;
 }
 
 .inner-area-header__info__name {
@@ -67,30 +64,26 @@ a:hover {
   margin-top: 10px;
 }
 
-.inner-area-header__info__job{
+.inner-area-header__info__job,
+.created-at {
   color: #666;
 }
 
-.inner-area-header__nav {
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
+.area-aboutme,
+.area-technologies,
+.area-projects,
+.blog__item {
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
 }
 
-.inner-area-header__nav__item {
-  color: #333;
-  font-weight: bold;
-  margin-left: 15px;
-}
-
-.area-aboutme p {
-  font-size: 18px;
+.area-footer {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
 }
 
 .area-footer--bg-3e {
   width: 100%;
   padding: 2rem;
-  margin-top: 3rem;
 }
 
 .area-footer__contact {
@@ -138,25 +131,21 @@ h5 a {
   border-radius: 10px;
 }
 
-.hr {
-  border-bottom: 4px solid #00b5e3;
-  margin: 0px 0px 20px 0px;
-  width: 5rem;
-}
-
 #btnScroll i {
   width: 18px;
   height: 18px;
 }
 
-.blog__item {
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
-  margin-bottom: 15px;
+.autho-img {
+  width: 50px;
+  height: 50px;
+}
+
+.autho-img--round {
+  border-radius: 50%;
 }
 
 .item__thumbnail img {
-  border-radius: 10px 10px 0px 0px;
   width: 100%;
   max-height: 205px;
   object-fit: cover;
@@ -175,7 +164,7 @@ h5 a {
 }
 
 .blog__item__footer {
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .blog-detail__title {
@@ -201,20 +190,11 @@ h5 a {
   .inner-area-header__info {
     position: relative;
     left: 0;
-    margin-top: 6rem;
   }
 
-  .inner-area-header__nav {
-    position: relative;
-    margin-top: 0;
-  }
-
-  .area-header {
-    margin-bottom: 35px;
-  }
-
-  .area-header__cover-img {
-    background-position: 48%;
+  .area-content {
+    background-color: #f7f7f7;
+    padding-top: 170px;
   }
 }
 
@@ -223,12 +203,9 @@ h5 a {
     left: 31%;
   }
 
-  .inner-area-header__nav {
-    margin-top: 6rem;
-  }
-
   .area-content {
-    padding-top: 2rem;
+    padding-top: 110px;
+    background-color: #f7f7f7;
   }
 }
 
@@ -242,10 +219,6 @@ h5 a {
 @media only screen and (min-width: 992px) {
   .inner-area-header__info {
     left: 18%;
-  }
-
-  .inner-area-header__nav {
-    margin-top: 15px;
   }
 }
 
