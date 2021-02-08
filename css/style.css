@@ -20,8 +20,11 @@ a:hover {
 }
 
 .area-header {
-  height: 105px;
-  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  z-index: 100;
+  background-image: url(/img/bg.jpg)
 }
 
 .inner-area-header,
@@ -58,15 +61,28 @@ a:hover {
 }
 
 .inner-area-header__info__name {
-  color: #333;
+  color: white;
   font-size: 28px;
   letter-spacing: 1px;
   margin-top: 10px;
 }
 
-.inner-area-header__info__job,
+.inner-area-header__info__job {
+  color: white;
+}
+
 .created-at {
   color: #666;
+}
+
+.col-left {
+  width: 475px;
+  position: fixed;
+}
+
+.col-right {
+  width: 665px;
+  margin-left: 475px;
 }
 
 .area-aboutme,
@@ -74,16 +90,13 @@ a:hover {
 .area-projects,
 .blog__item {
   border-radius: 5px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
 .area-footer {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
-}
-
-.area-footer--bg-3e {
   width: 100%;
   padding: 2rem;
+  background-color: #f0f2f5;
 }
 
 .area-footer__contact {
@@ -96,11 +109,11 @@ a:hover {
   background-color: white;
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   margin: 5px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
 .area-footer__contact__item i {
@@ -159,10 +172,6 @@ h5 a {
   color: #007bff;
 }
 
-.blog__item__body {
-  height: 175px;
-}
-
 .blog__item__footer {
   border-radius: 0px 0px 5px 5px;
 }
@@ -179,6 +188,11 @@ h5 a {
   width: 100%;
 }
 
+.view-count {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
   .inner-area-header {
     display: flex;
@@ -193,8 +207,16 @@ h5 a {
   }
 
   .area-content {
-    background-color: #f7f7f7;
-    padding-top: 170px;
+    background-color: #f0f2f5;
+    padding-top: 310px;
+  }
+
+  .col-left {
+    display: none;
+  }
+
+  .col-right {
+    margin: 0;
   }
 }
 
@@ -204,16 +226,16 @@ h5 a {
   }
 
   .area-content {
-    padding-top: 110px;
-    background-color: #f7f7f7;
+    padding-top: 220px;
+    background-color: #f0f2f5;
   }
 }
-
 
 @media only screen and (min-width: 768px) {
   .inner-area-header__info {
     left: 25%;
   }
+  
 }
 
 @media only screen and (min-width: 992px) {
